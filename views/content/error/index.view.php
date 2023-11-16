@@ -1,0 +1,1 @@
+<?php include('../views/matrix/teaser.view.php'); ?>

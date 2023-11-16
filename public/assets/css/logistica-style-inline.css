@@ -1,0 +1,273 @@
+.site-title {
+    font-family: 'Jost';
+}
+
+.nav-menu, .entry-meta, .owl-nav, label, .page-links, .navigation, .entry-title i, .site-info, .filters {
+    font-family: 'Jost';
+}
+
+.widget-title {
+    font-family: 'TeXGyreAdventor', sans-serif;
+}
+
+h1, .entry-title, .footer-subscribe h3, .widget_categories ul li, .widget_recent_entries ul li a, .widget_pages ul li, .widget_nav_menu ul li, .widget_archive ul li, .widget_most_recommended_posts ul li a, .widget_calendar table caption, .tptn_title, .nav-single a, .widget_recent_comments ul li, .widget_product_categories ul li, .widget_meta ul li, .widget_rss ul a.rsswidget {
+    font-family: 'Outfit';
+}
+
+h2, h3, h4, h5, h6, blockquote, .tab-titles {
+    font-family: 'Jost';
+}
+
+.slider-box .entry-title {
+    font-family: 'Now', sans-serif;
+}
+
+body {
+    font-family: 'Jost';
+}
+
+.link-box .entry-title {
+    font-family: 'Now', sans-serif;
+}
+
+.button, button, html .elementor-button, html .ekit-wid-con .elementskit-btn, html .ekit-wid-con .ekit_creative_button, .more-link {
+    font-family: 'Jost';
+}
+
+.top-bar {
+    font-family: 'Jost';
+}
+
+@media screen and (min-width: 992px) {
+    .site-header .site-title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .is-header-smaller .site-header.clone .site-title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .site-header .site-title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 98px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-menu > ul {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .blog-stream .entry-content {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .blog-stream.blog-small .entry-content {
+        font-size: 15px;
+    }
+}
+
+.widget-title {
+    font-size: 13px;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-menu ul ul {
+        font-size: 14px;
+    }
+}
+
+.top-bar {
+    font-size: 12px;
+}
+
+.site-footer .site-info {
+    font-size: 12px;
+}
+
+.site-title {
+    font-weight: 500;
+}
+
+h1, .entry-title, .footer-subscribe h3 {
+    font-weight: 700;
+}
+
+h2, h3, h4, h5, h6, blockquote, .comment-meta .fn {
+    font-weight: 400;
+}
+
+.slider-box .entry-title {
+    font-weight: 700;
+}
+
+.widget-title {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-menu > ul {
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-menu ul ul {
+        font-weight: 600;
+    }
+}
+
+.link-box .entry-title {
+    font-weight: 700;
+}
+
+.top-bar {
+    font-weight: 500;
+}
+
+.site-footer .site-info {
+    font-weight: 600;
+}
+
+.entry-meta {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-menu ul ul {
+        letter-spacing: 0px;
+    }
+}
+
+.widget-title {
+    letter-spacing: 3px;
+}
+
+.site-footer .site-info {
+    letter-spacing: 5px;
+}
+
+@media screen and (min-width: 992px) {
+    html {
+        line-height: 1.7;
+    }
+}
+
+.header-wrap:after {
+    bottom: -1px;
+}
+
+@media screen and (min-width: 992px) {
+    .site-title img {
+        max-height: 30px;
+    }
+}
+
+.top-bar {
+    line-height: 36px;
+}
+
+.layout-medium, .is-header-row .header-wrap-inner, .is-header-small .header-wrap-inner, .is-menu-bar.is-menu-fixed-bg .menu-wrap, .is-header-fixed-width .header-wrap, .is-header-fixed-width.is-menu-bar .site-navigation, .is-header-float-box:not(.is-header-float-box-menu) .site-header:not(.clone) .header-wrap, .is-header-float-box.is-menu-bar .site-header:not(.clone) .site-navigation:not(.clone), .is-body-boxed .site, .is-body-boxed .header-wrap, .is-body-boxed.is-menu-bar .site-navigation, .is-body-boxed:not(.is-menu-bar) .site-header, .is-middle-boxed .site-main, .intro-content, .is-footer-boxed .site-footer, .is-content-boxed .site-main .layout-fixed, .top-bar .top-bar-wrap, .is-top-bar-fixed .top-bar, .is-top-bar-fixed-bg .top-bar, .is-menu-bottom.is-menu-bottom-overflow .site-header:not(.clone) .site-navigation:not(.clone) .menu-wrap, .site-branding-wrap, .is-header-border-fixed .header-wrap:after, .is-header-border-fixed .menu-wrap:after, html .tutor-container, html .lp-content-area, html .learn-press-breadcrumb {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layout-fixed, .blog-list, .blog-regular, .is-content-boxed .single .site-content, .is-content-boxed .page .site-content {
+    max-width: 800px;
+}
+
+a {
+    color: #d84156;
+}
+
+a:hover {
+    color: #c60035;
+}
+
+.header-wrap:after {
+    opacity: 0.08;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-menu > ul > li.current-menu-item > a {
+        color: #ffffff !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-menu li.current-menu-item > a .link-text:before {
+        background-color: #0a0101 !important;
+        border-color: #0a0101 !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    html .nav-menu > ul > li > a:hover, .nav-menu > ul > li.has-submenu:hover > a {
+        color: #0a0a0a;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    html.loaded .nav-menu ul li a .link-text:before, .nav-menu li.has-submenu:hover > a .link-text:before {
+        background-color: #fcf1e5;
+        border-color: #fcf1e5;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, blockquote, .tab-titles {
+    color: #343842;
+}
+
+body {
+    color: #56676d;
+}
+
+body {
+    background: #ffffff;
+}
+
+.site .footer-subscribe {
+    background: #ebe6da;
+}
+
+.site-footer .site-info {
+    color: #353535;
+}
+
+.top-bar, .top-bar select option {
+    background-color: #495149;
+}
+
+.header-wrap:after {
+    color: #222222;
+}
+
+.is-menu-bar .menu-wrap:after {
+    color: #222222;
+}
