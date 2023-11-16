@@ -1,3 +1,5 @@
+<?php global $helper; ?>
+
 <section class="elementor-section elementor-top-section elementor-element elementor-element-9861a7b elementor-section-boxed elementor-section-height-default elementor-section-height-default"
          data-id="9861a7b" data-element_type="section">
     <div class="elementor-background-overlay"></div>
@@ -36,14 +38,15 @@
                             <div class="qodef-m-inner">
                                 <div class="qodef-m-image">
                                     <div class="qodef-m-media-image">
-                                        <img loading="lazy" width="800" height="889" src="assets/wp-content/uploads/sites/2/2023/07/t-01.jpg" class="attachment-full size-full" alt="" decoding="async"
-                                             srcset="https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-01.jpg 800w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-01-270x300.jpg 270w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-01-768x853.jpg 768w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-01-495x550.jpg 495w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-01-550x611.jpg 550w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-01-450x500.jpg 450w"
-                                             sizes="(max-width: 800px) 100vw, 800px"/>
+                                        <img loading="lazy" style="width: 300px !important; height: 300px !important; object-fit: cover;"
+                                             src="<?= $helper->getSource('default.jpg', 'avatars') ?>"
+                                             class="attachment-full size-full"
+                                             alt="SV" decoding="async"/>
                                     </div>
                                 </div>
                                 <div class="qodef-m-content">
-                                    <h4 itemprop="name" class="qodef-m-title">Alisson Taylor</h4>
-                                    <p class="qodef-m-role">Team Manager</p>
+                                    <h4 itemprop="name" class="qodef-m-title">Lorem ipsum</h4>
+                                    <p class="qodef-m-role">Etiam et pellentesque</p>
                                     <div class="qodef-m-social-icons">
                                         <a class="qodef-e-social-icon-link" itemprop="url" href="#" target="_blank">
                                             <span class="qodef-e-social-icon">
@@ -83,31 +86,22 @@
                             <div class="qodef-m-inner">
                                 <div class="qodef-m-image">
                                     <div class="qodef-m-media-image">
-                                        <img loading="lazy" width="800" height="889" src="assets/wp-content/uploads/sites/2/2023/07/t-03.jpg" class="attachment-full size-full" alt="" decoding="async"
-                                             srcset="https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-03.jpg 800w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-03-270x300.jpg 270w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-03-768x853.jpg 768w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-03-495x550.jpg 495w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-03-550x611.jpg 550w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-03-450x500.jpg 450w"
-                                             sizes="(max-width: 800px) 100vw, 800px"/>
+                                        <img loading="lazy" style="width: 300px !important; height: 300px !important; object-fit: cover;"
+                                             src="<?= $helper->getSource('dana-mueller.jpg', 'avatars') ?>"
+                                             class="attachment-full size-full"
+                                             alt="SV" decoding="async"/>
                                     </div>
                                 </div>
                                 <div class="qodef-m-content">
-                                    <h4 itemprop="name" class="qodef-m-title">Alisson Taylor</h4>
-                                    <p class="qodef-m-role">Team Manager</p>
+                                    <h4 itemprop="name" class="qodef-m-title">Dana Müller</h4>
+                                    <p class="qodef-m-role">Geschäftsführerin</p>
                                     <div class="qodef-m-social-icons">
-                                        <a class="qodef-e-social-icon-link" itemprop="url" href="#" target="_blank">
+                                        <a class="qodef-e-social-icon-link" itemprop="url" href="mailto:d.mueller@acc-cargo.com">
                                             <span class="qodef-e-social-icon">
-                                                <i aria-hidden="true" class="fab fa-facebook-f"></i>
+                                                <i aria-hidden="true" class="far fa-envelope"></i>
                                             </span>
                                         </a>
-                                        <a class="qodef-e-social-icon-link" itemprop="url" href="#" target="_blank">
-                                            <span class="qodef-e-social-icon">
-                                                <i aria-hidden="true" class="fab fa-twitter"></i>
-                                            </span>
-                                        </a>
-                                        <a class="qodef-e-social-icon-link" itemprop="url" href="#" target="_blank">
-                                            <span class="qodef-e-social-icon">
-                                                <i aria-hidden="true" class="fab fa-instagram"></i>
-                                            </span>
-                                        </a>
-                                        <a class="qodef-e-social-icon-link" itemprop="url" href="#" target="_blank">
+                                        <a class="qodef-e-social-icon-link" itemprop="url" href="mailto:dana.mueller@queens-log.de">
                                             <span class="qodef-e-social-icon">
                                                 <i aria-hidden="true" class="far fa-envelope"></i>
                                             </span>
@@ -130,13 +124,15 @@
                             <div class="qodef-m-inner">
                                 <div class="qodef-m-image">
                                     <div class="qodef-m-media-image">
-                                        <img loading="lazy" width="800" height="889" src="assets/wp-content/uploads/sites/2/2023/07/t-02.jpg" class="attachment-full size-full" alt="" decoding="async"
-                                             srcset="https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-02.jpg 800w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-02-270x300.jpg 270w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-02-768x853.jpg 768w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-02-495x550.jpg 495w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-02-550x611.jpg 550w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/07/t-02-450x500.jpg 450w"
-                                             sizes="(max-width: 800px) 100vw, 800px"/></div>
+                                        <img loading="lazy" style="width: 300px !important; height: 300px !important; object-fit: cover;"
+                                             src="<?= $helper->getSource('mattias.jpg', 'avatars') ?>"
+                                             class="attachment-full size-full"
+                                             alt="SV" decoding="async"/>
+                                    </div>
                                 </div>
                                 <div class="qodef-m-content">
-                                    <h4 itemprop="name" class="qodef-m-title">Alisson Taylor</h4>
-                                    <p class="qodef-m-role">Team Manager</p>
+                                    <h4 itemprop="name" class="qodef-m-title">Lorem ipsum</h4>
+                                    <p class="qodef-m-role">Etiam et pellentesque</p>
                                     <div class="qodef-m-social-icons">
                                         <a class="qodef-e-social-icon-link" itemprop="url" href="#" target="_blank">
                                             <span class="qodef-e-social-icon">

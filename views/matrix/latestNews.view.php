@@ -1,3 +1,5 @@
+<?php global $helper; ?>
+
 <section class="elementor-section elementor-top-section elementor-element elementor-element-75396fdb elementor-section-boxed elementor-section-height-default elementor-section-height-default"
          data-id="75396fdb" data-element_type="section">
     <div class="elementor-background-overlay"></div>
@@ -58,10 +60,10 @@
                                         <div class="qodef-e-media">
                                             <div class="qodef-e-media-image">
                                                 <a itemprop="url" href="#">
-                                                    <img loading="lazy" width="1300" height="650"
-                                                         src="assets/wp-content/uploads/sites/2/2023/08/earth-surrounded-by-cardboard-boxes-cargo-container-ship-flying-plan-car-van-truck-1300x650.jpg"
-                                                         class="attachment-qi_addons_for_elementor_image_size_landscape size-qi_addons_for_elementor_image_size_landscape" alt="SV"
-                                                         decoding="async"/>
+                                                    <img loading="lazy" width="1300" height="650" decoding="async" alt="SV"
+                                                         src="<?= $helper->getSource('default.jpg', 'backgrounds') ?>"
+                                                         style="width: 100% !important; height: 350px; !important; object-fit: cover;"
+                                                         class="attachment-qi_addons_for_elementor_image_size_landscape size-qi_addons_for_elementor_image_size_landscape"/>
                                                 </a>
                                             </div>
                                         </div>
@@ -88,10 +90,10 @@
                                         <div class="qodef-e-media">
                                             <div class="qodef-e-media-image">
                                                 <a itemprop="url" href="#">
-                                                    <img loading="lazy" width="1300" height="650"
-                                                         src="assets/wp-content/uploads/sites/2/2023/08/international-cargo-transportation-containers-by-sea-sea-huge-ship-with-containers-sea-mixed-media-concept-transport-logistics"
-                                                         class="attachment-qi_addons_for_elementor_image_size_landscape size-qi_addons_for_elementor_image_size_landscape" alt="SV"
-                                                         decoding="async"/>
+                                                    <img loading="lazy" width="1300" height="650" decoding="async" alt="SV"
+                                                         src="<?= $helper->getSource('DSC_1351.jpg', 'backgrounds') ?>"
+                                                         style="width: 100% !important; height: 350px !important; object-fit: cover;"
+                                                         class="attachment-qi_addons_for_elementor_image_size_landscape size-qi_addons_for_elementor_image_size_landscape"/>
                                                 </a>
                                             </div>
                                         </div>
@@ -118,10 +120,10 @@
                                         <div class="qodef-e-media">
                                             <div class="qodef-e-media-image">
                                                 <a itemprop="url" href="#">
-                                                    <img loading="lazy" width="1300" height="650"
-                                                         src="assets/wp-content/uploads/sites/2/2023/08/aerial-view-cargo-ship-with-cargo-container-sea-1300x650.jpg"
-                                                         class="attachment-qi_addons_for_elementor_image_size_landscape size-qi_addons_for_elementor_image_size_landscape" alt="SV"
-                                                         decoding="async"/>
+                                                    <img loading="lazy" width="1300" height="650" decoding="async" alt="SV"
+                                                         src="<?= $helper->getSource('DSC_1367.jpg', 'backgrounds') ?>"
+                                                         style="width: 100% !important; height: 350px !important; object-fit: cover;"
+                                                         class="attachment-qi_addons_for_elementor_image_size_landscape size-qi_addons_for_elementor_image_size_landscape"/>
                                                 </a>
                                             </div>
                                         </div>
@@ -149,9 +151,11 @@
                                         <div class="qodef-e-media">
                                             <div class="qodef-e-media-image">
                                                 <a itemprop="url" href="#">
-                                                    <img loading="lazy" width="1300" height="650" src="assets/wp-content/uploads/sites/2/2023/08/sphere-with-trees-trucks-1300x650.jpg"
-                                                         class="attachment-qi_addons_for_elementor_image_size_landscape size-qi_addons_for_elementor_image_size_landscape" alt="SV"
-                                                         decoding="async"/> </a>
+                                                    <img loading="lazy" width="1300" height="650" decoding="async" alt="SV"
+                                                         src="<?= $helper->getSource('DSC_1312.jpg', 'backgrounds') ?>"
+                                                         style="width: 100% !important; height: 350px !important; object-fit: cover;"
+                                                         class="attachment-qi_addons_for_elementor_image_size_landscape size-qi_addons_for_elementor_image_size_landscape"/>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="qodef-e-content">

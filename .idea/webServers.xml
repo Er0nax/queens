@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="32704ebd-038b-4899-8948-d1d4f0e5e84b" name="queens.eronax.de" url="http://ngcobalt402.manitu.net">
+        <fileTransfer rootFolder="/web/queens.eronax.de" host="ngcobalt402.manitu.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" connections="3" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+        <option name="numberOfConnections" value="3" />
+      </webServer>
+    </option>
+  </component>
+</project>

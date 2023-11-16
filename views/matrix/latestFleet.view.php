@@ -1,3 +1,5 @@
+<?php global $helper; ?>
+
 <section class="elementor-section elementor-top-section elementor-element elementor-element-1fac2527 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
          data-id="1fac2527" data-element_type="section">
     <div class="elementor-container elementor-column-gap-default">
@@ -14,10 +16,10 @@
                                     <ul class="bdt-slideshow-items" style="min-height:72vh">
                                         <li class="bdt-slideshow-item bdt-flex bdt-flex-middle bdt-flex-center elementor-repeater-item-3178">
                                             <div class="bdt-ps-blog-bg"
-                                                 style="background-image: url('assets/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy.jpg')">
+                                                 style="background-image: url('<?= $helper->getSource('DSC_1344.jpg', 'backgrounds') ?>')">
                                             </div>
                                             <div class="bdt-ps-blog-main-img bdt-ps-slide-img"
-                                                 style="background-image: url('assets/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy.jpg')">
+                                                 style="background-image: url('<?= $helper->getSource('DSC_1307.jpg', 'backgrounds') ?>')">
                                             </div>
                                             <div class="bdt-overlay-default bdt-position-cover"></div>
                                             <div class="bdt-ps-blog-container">
@@ -28,13 +30,13 @@
                                                                 <div class="bdt-width-1-1 bdt-width-3-5@m">
                                                                     <div class="bdt-main-title" data-reveal="reveal-active">
                                                                         <h1 class="bdt-title-tag" data-bdt-slideshow-parallax="y: 50,0,-50; opacity: 1,1,0">
-                                                                            <a href="#"><span class="frist-word">Global</span> Reach </a>
+                                                                            <a href="#"><span class="frist-word">Lorem</span> ipsum</a>
                                                                         </h1>
                                                                     </div>
                                                                     <div class="bdt-ps-blog-btn" data-reveal="reveal-active" data-bdt-slideshow-parallax="y: 150,0,-100; opacity: 1,1,0">
                                                                         <a class="bdt-slide-btn" href="#">
                                                                             <span class="bdt-prime-slider-button-wrapper">
-                                                                                <span class="bdt-prime-slider-button-text bdt-flex bdt-flex-middle bdt-flex-inline">Projekt anschauen
+                                                                                <span class="bdt-prime-slider-button-text bdt-flex bdt-flex-middle bdt-flex-inline">LKW anschauen
                                                                                     <span class="bdt-slide-btn-icon">
                                                                                         <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="arrow-right">
                                                                                             <polyline fill="none" stroke="#000" points="10 5 15 9.5 10 14"></polyline>
@@ -55,10 +57,10 @@
                                         </li>
                                         <li class="bdt-slideshow-item bdt-flex bdt-flex-middle bdt-flex-center elementor-repeater-item-505">
                                             <div class="bdt-ps-blog-bg"
-                                                 style="background-image: url('assets/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration.jpg')">
+                                                 style="background-image: url('<?= $helper->getSource('DSC_1344.jpg', 'backgrounds') ?>')">
                                             </div>
                                             <div class="bdt-ps-blog-main-img bdt-ps-slide-img"
-                                                 style="background-image: url('assets/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration.jpg')">
+                                                 style="background-image: url('<?= $helper->getSource('DSC_1367.jpg', 'backgrounds') ?>')">
                                             </div>
                                             <div class="bdt-overlay-default bdt-position-cover"></div>
                                             <div class="bdt-ps-blog-container">
@@ -69,13 +71,13 @@
                                                                 <div class="bdt-width-1-1 bdt-width-3-5@m">
                                                                     <div class="bdt-main-title" data-reveal="reveal-active">
                                                                         <h1 class="bdt-title-tag" data-bdt-slideshow-parallax="y: 50,0,-50; opacity: 1,1,0">
-                                                                            <a href="#"><span class="frist-word">Supply</span> Chain </a>
+                                                                            <a href="#"><span class="frist-word">Lorem</span> ipsum</a>
                                                                         </h1>
                                                                     </div>
                                                                     <div class="bdt-ps-blog-btn" data-reveal="reveal-active" data-bdt-slideshow-parallax="y: 150,0,-100; opacity: 1,1,0">
                                                                         <a class="bdt-slide-btn" href="#">
                                                                             <span class="bdt-prime-slider-button-wrapper">
-                                                                                <span class="bdt-prime-slider-button-text bdt-flex bdt-flex-middle bdt-flex-inline">Projekt anschauen
+                                                                                <span class="bdt-prime-slider-button-text bdt-flex bdt-flex-middle bdt-flex-inline">LKW anschauen
                                                                                     <span class="bdt-slide-btn-icon">
                                                                                         <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="arrow-right">
                                                                                             <polyline fill="none" stroke="#000" points="10 5 15 9.5 10 14"></polyline>

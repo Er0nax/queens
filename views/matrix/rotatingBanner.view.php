@@ -1,6 +1,10 @@
+<?php global $helper ?>
+
 <section class="elementor-section elementor-top-section elementor-element elementor-element-1ddc09a8 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-         data-id="1ddc09a8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-    <div class="elementor-background-overlay"></div>
+         data-id="1ddc09a8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"
+         style="background-image: url('<?= $helper->getSource('default.jpg', 'backgrounds') ?>'); padding: 5% 0 5% 0;">
+    <div class="elementor-background-overlay"
+         style="background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.8), rgba(0,0,0,0.8), transparent);"></div>
     <div class="elementor-container elementor-column-gap-default">
         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-36b69c10" data-id="36b69c10" data-element_type="column">
             <div class="elementor-widget-wrap elementor-element-populated">

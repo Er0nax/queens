@@ -1,6 +1,7 @@
 <?php
 
 global $settings;
+global $page;
 
 ?>
 
@@ -30,23 +31,24 @@ global $settings;
                         <a class="menu-toggle"><span class="lines"></span></a>
                         <div class="nav-menu">
                             <ul id="menu-main-menu" class="">
-                                <li id="menu-item-12260"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2871 current_page_item menu-item-12260">
+                                <!-- .current-menu-item when active -->
+                                <?php $activeClass = 'current-menu-item'; ?>
+                                <li id="menu-item-12260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home <?= ($page->page == 'index') ? $activeClass : '' ?>">
                                     <a href="<?= $settings->mainUrl ?>" aria-current="page">Home</a>
                                 </li>
-                                <li id="menu-item-1001" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001">
+                                <li id="menu-item-1001" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001 <?= ($page->page == 'about') ? $activeClass : '' ?>">
                                     <a href="about">Über uns</a>
                                 </li>
-                                <li id="menu-item-1247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1247">
+                                <li id="menu-item-1247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1247 <?= ($page->page == 'services') ? $activeClass : '' ?>">
                                     <a href="services">Leistungen</a>
                                 </li>
-                                <li id="menu-item-1729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1729">
-                                    <a href="projects">Projekte</a>
+                                <li id="menu-item-1729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1729 <?= ($page->page == 'fleet') ? $activeClass : '' ?>">
+                                    <a href="fleet">Fuhrpark</a>
                                 </li>
-                                <li id="menu-item-6411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6411">
+                                <li id="menu-item-6411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6411 <?= ($page->page == 'news') ? $activeClass : '' ?>">
                                     <a href="news">News</a>
                                 </li>
-                                <li id="menu-item-1000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1000">
+                                <li id="menu-item-1000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1000 <?= ($page->page == 'contact') ? $activeClass : '' ?>">
                                     <a href="contact">Kontakt</a>
                                 </li>
                             </ul>
@@ -56,7 +58,7 @@ global $settings;
                         <a class="search-toggle toggle-link"></a>
                         <div class="search-container">
                             <div class="search-box">
-                                <form class="search-form" method="get" action="https://themes.pixelwars.org/logistica/demo-01/">
+                                <form class="search-form" method="get" action="">
                                     <label>
                                         <span>Search for</span>
                                         <input type="search" id="search-field" name="s" placeholder="type and hit enter">

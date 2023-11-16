@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Jost";
+    src: url('Jost/Jost-VariableFont_wght.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url('Outfit/Outfit-VariableFont_wght.ttf') format("truetype");
+}

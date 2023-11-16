@@ -122,9 +122,7 @@
 											'The %s comes with advanced professional functionalities and an even smoother website-making experience. %s Upgrade Qi Addons for Elementor %s',
 											'qi-addons-for-elementor'
 										),
-										title,
-										'<a class="qodef-dialog-box-link" target="_blank" href="https://qodeinteractive.com/pricing/">',
-										'</a>'
+										title
 									);
 								}
 

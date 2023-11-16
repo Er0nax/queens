@@ -1,5 +1,8 @@
+<?php global $helper ?>
+
 <section class="elementor-section elementor-top-section elementor-element elementor-element-3efaef54 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-         data-id="3efaef54" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+         data-id="3efaef54" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"
+         style="background-image: url('<?= $helper->getSource('DSC_1338.jpg', 'backgrounds') ?>')">
     <div class="elementor-background-overlay"></div>
     <div class="elementor-container elementor-column-gap-default">
         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-43e6392" data-id="43e6392" data-element_type="column">

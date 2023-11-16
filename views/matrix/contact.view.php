@@ -1,4 +1,7 @@
+<?php global $helper; ?>
+
 <section data-id="6d7bee94" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}"
+         style="background-image: url('<?= $helper->getSource('DSC_1367.jpg', 'backgrounds') ?>')"
          class="elementor-section elementor-top-section elementor-element elementor-element-6d7bee94 elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle">
     <div class="elementor-background-overlay"></div>
     <div class="elementor-container elementor-column-gap-default">

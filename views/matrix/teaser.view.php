@@ -35,6 +35,7 @@
                                                 <div class="bdt-prime-slider-content">
 
                                                     <div class="bdt-sub-title">
+                                                        <?php global $settings ?>
                                                         <h4 class="bdt-sub-title-inner" data-bdt-slideshow-parallax="x: 100,-100; opacity: 1,1,0" data-reveal="reveal-active">Mit uns ans Ziel</h4>
                                                     </div>
 

@@ -21,6 +21,7 @@ include('../app/modules/Main.php');
 $app = new \config\App();
 $settings = new \config\Settings();
 $page = new \controllers\Page();
+$helper = new \helpers\SiteHelper();
 
 // run the application
 $app->run();

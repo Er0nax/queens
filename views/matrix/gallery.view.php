@@ -1,3 +1,5 @@
+<?php global $helper; ?>
+
 <section data-id="126a3173" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}"
          class="elementor-section elementor-top-section elementor-element elementor-element-126a3173 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-invisible">
     <div class="elementor-container elementor-column-gap-default">
@@ -15,11 +17,10 @@
                                         <div class="qodef-e-inner-holder">
                                             <a class="qodef-popup-item" itemprop="image"
                                                data-type="image" data-fslightbox="gallery-515">
-                                                <img loading="lazy" width="1920" height="814"
-                                                     src="wp-content/uploads/sites/2/2023/08/earth-surrounded-by-cardboard-boxes-cargo-container-ship-flying-plan-car-van-truck-1.jpg"
-                                                     class="attachment-full size-full" alt="" decoding="async"
-                                                     srcset="https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/earth-surrounded-by-cardboard-boxes-cargo-container-ship-flying-plan-car-van-truck-1.jpg 1920w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/earth-surrounded-by-cardboard-boxes-cargo-container-ship-flying-plan-car-van-truck-1-300x127.jpg 300w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/earth-surrounded-by-cardboard-boxes-cargo-container-ship-flying-plan-car-van-truck-1-1024x434.jpg 1024w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/earth-surrounded-by-cardboard-boxes-cargo-container-ship-flying-plan-car-van-truck-1-768x326.jpg 768w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/earth-surrounded-by-cardboard-boxes-cargo-container-ship-flying-plan-car-van-truck-1-1297x550.jpg 1297w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/earth-surrounded-by-cardboard-boxes-cargo-container-ship-flying-plan-car-van-truck-1-1060x449.jpg 1060w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/earth-surrounded-by-cardboard-boxes-cargo-container-ship-flying-plan-car-van-truck-1-1536x651.jpg 1536w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/earth-surrounded-by-cardboard-boxes-cargo-container-ship-flying-plan-car-van-truck-1-550x233.jpg 550w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/earth-surrounded-by-cardboard-boxes-cargo-container-ship-flying-plan-car-van-truck-1-1179x500.jpg 1179w"
-                                                     sizes="(max-width: 1920px) 100vw, 1920px"/>
+                                                <img loading="lazy" width="1920" height="814" alt="SV" decoding="async"
+                                                     src="<?= $helper->getSource('DSC_1338.jpg', 'backgrounds') ?>"
+                                                     style="width: 100% !important; object-fit: cover;"
+                                                     class="attachment-full size-full"/>
                                             </a>
                                         </div>
                                     </div>
@@ -30,11 +31,10 @@
                                         <div class="qodef-e-inner-holder">
                                             <a class="qodef-popup-item" itemprop="image"
                                                data-type="image" data-fslightbox="gallery-515">
-                                                <img loading="lazy" width="1920" height="900"
-                                                     src="wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration-copy.jpg"
-                                                     class="attachment-full size-full" alt="" decoding="async"
-                                                     srcset="https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration-copy.jpg 1920w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration-copy-300x141.jpg 300w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration-copy-1024x480.jpg 1024w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration-copy-768x360.jpg 768w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration-copy-1173x550.jpg 1173w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration-copy-1060x497.jpg 1060w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration-copy-1536x720.jpg 1536w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration-copy-550x258.jpg 550w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration-copy-1067x500.jpg 1067w"
-                                                     sizes="(max-width: 1920px) 100vw, 1920px"/>
+                                                <img loading="lazy" width="1920" height="814" alt="SV" decoding="async"
+                                                     src="<?= $helper->getSource('default.jpg', 'backgrounds') ?>"
+                                                     style="width: 100% !important; object-fit: cover;"
+                                                     class="attachment-full size-full"/>
                                             </a>
                                         </div>
                                     </div>
@@ -45,11 +45,10 @@
                                         <div class="qodef-e-inner-holder">
                                             <a class="qodef-popup-item" itemprop="image"
                                                data-type="image" data-fslightbox="gallery-515">
-                                                <img loading="lazy" width="1920" height="1280"
-                                                     src="wp-content/uploads/sites/2/2023/08/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-tr"
-                                                     class="attachment-full size-full" alt="" decoding="async"
-                                                     srcset="https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative.jpg 1920w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative-300x200.jpg 300w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative-1024x683.jpg 1024w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative-768x512.jpg 768w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative-825x550.jpg 825w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative-1060x707.jpg 1060w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative-1536x1024.jpg 1536w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative-550x367.jpg 550w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative-750x500.jpg 750w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative-1620x1080.jpg 1620w"
-                                                     sizes="(max-width: 1920px) 100vw, 1920px"/>
+                                                <img loading="lazy" width="1920" height="814" alt="SV" decoding="async"
+                                                     src="<?= $helper->getSource('DSC_1312.jpg', 'backgrounds') ?>"
+                                                     style="width: 100% !important; object-fit: cover;"
+                                                     class="attachment-full size-full"/>
                                             </a>
                                         </div>
                                     </div>
@@ -60,10 +59,10 @@
                                         <div class="qodef-e-inner-holder">
                                             <a class="qodef-popup-item" itemprop="image" data-type="image"
                                                data-fslightbox="gallery-515">
-                                                <img loading="lazy" width="1920" height="1280" src="wp-content/uploads/sites/2/2023/08/train-track-with-blue-container-top.jpg"
-                                                     class="attachment-full size-full" alt="" decoding="async"
-                                                     srcset="https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/train-track-with-blue-container-top.jpg 1920w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/train-track-with-blue-container-top-300x200.jpg 300w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/train-track-with-blue-container-top-1024x683.jpg 1024w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/train-track-with-blue-container-top-768x512.jpg 768w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/train-track-with-blue-container-top-825x550.jpg 825w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/train-track-with-blue-container-top-1060x707.jpg 1060w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/train-track-with-blue-container-top-1536x1024.jpg 1536w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/train-track-with-blue-container-top-550x367.jpg 550w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/train-track-with-blue-container-top-750x500.jpg 750w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/train-track-with-blue-container-top-1620x1080.jpg 1620w"
-                                                     sizes="(max-width: 1920px) 100vw, 1920px"/>
+                                                <img loading="lazy" width="1920" height="814" alt="SV" decoding="async"
+                                                     src="<?= $helper->getSource('DSC_1307.jpg', 'backgrounds') ?>"
+                                                     style="width: 100% !important; object-fit: cover;"
+                                                     class="attachment-full size-full"/>
                                             </a>
                                         </div>
                                     </div>
@@ -74,10 +73,10 @@
                                         <div class="qodef-e-inner-holder">
                                             <a class="qodef-popup-item" itemprop="image" data-type="image"
                                                data-fslightbox="gallery-515">
-                                                <img loading="lazy" width="1920" height="1080" src="wp-content/uploads/sites/2/2023/08/transportation-logistics-copy.jpg"
-                                                     class="attachment-full size-full" alt="" decoding="async"
-                                                     srcset="https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-copy.jpg 1920w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-copy-300x169.jpg 300w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-copy-1024x576.jpg 1024w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-copy-768x432.jpg 768w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-copy-978x550.jpg 978w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-copy-1060x596.jpg 1060w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-copy-1536x864.jpg 1536w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-copy-550x309.jpg 550w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-copy-889x500.jpg 889w"
-                                                     sizes="(max-width: 1920px) 100vw, 1920px"/>
+                                                <img loading="lazy" width="1920" height="814" alt="SV" decoding="async"
+                                                     src="<?= $helper->getSource('DSC_1296.jpg', 'backgrounds') ?>"
+                                                     style="width: 100% !important; object-fit: cover;"
+                                                     class="attachment-full size-full"/>
                                             </a>
                                         </div>
                                     </div>

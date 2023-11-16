@@ -1,6 +1,5 @@
-<section
-        class="elementor-section elementor-top-section elementor-element elementor-element-1ad85c8 elementor-section-stretched elementor-section-height-min-height elementor-section-items-top elementor-section-boxed elementor-section-height-default"
-        data-id="1ad85c8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-1ad85c8 elementor-section-stretched elementor-section-height-min-height elementor-section-items-top elementor-section-boxed elementor-section-height-default"
+         data-id="1ad85c8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
     <div class="elementor-background-overlay"></div>
     <div class="elementor-container elementor-column-gap-default">
         <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-02dd10b" data-id="02dd10b" data-element_type="column"
@@ -75,13 +74,7 @@
                             <li class="elementor-icon-list-item">
                                 <a href="#">
 
-                                    <span class="elementor-icon-list-text">Amselweg 2, D-98617 Meiningen</span>
-                                </a>
-                            </li>
-                            <li class="elementor-icon-list-item">
-                                <a href="#">
-
-                                    <span class="elementor-icon-list-text"></span>
+                                    <span class="elementor-icon-list-text">Palmanger 47, D-99438 Tonndorf</span>
                                 </a>
                             </li>
                         </ul>

@@ -1,3 +1,5 @@
+<?php global $helper; ?>
+
 <section class="elementor-section elementor-top-section elementor-element elementor-element-7e63f2c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
          data-id="7e63f2c6" data-element_type="section">
     <div class="elementor-container elementor-column-gap-default">
@@ -41,7 +43,8 @@
     </div>
 </section>
 <section class="elementor-section elementor-top-section elementor-element elementor-element-16a79dd elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-         data-id="16a79dd" data-element_type="section">
+         data-id="16a79dd" data-element_type="section"
+         style="margin-bottom: 100px;">
     <div class="elementor-container elementor-column-gap-default">
         <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-694431ae" data-id="694431ae" data-element_type="column">
             <div class="elementor-widget-wrap elementor-element-populated">
@@ -161,36 +164,35 @@
                             <div class="qodef-e-inner">
                                 <div class="qodef-m-card">
                                     <div class="qodef-m-bundle-item">
-                                        <img fetchpriority="high" width="650" height="650" src="assets/wp-content/uploads/sites/2/2023/08/aerial-view-cargo-ship-with-cargo-container-sea-650x650.jpg"
-                                             class="attachment-qi_addons_for_elementor_image_size_square size-qi_addons_for_elementor_image_size_square" alt="" decoding="async"
-                                             srcset="https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/aerial-view-cargo-ship-with-cargo-container-sea-650x650.jpg 650w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/aerial-view-cargo-ship-with-cargo-container-sea-150x150.jpg 150w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/aerial-view-cargo-ship-with-cargo-container-sea-550x550.jpg 550w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/aerial-view-cargo-ship-with-cargo-container-sea-300x300.jpg 300w"
-                                             sizes="(max-width: 650px) 100vw, 650px"/>
+                                        <img fetchpriority="high" width="650" height="650" alt="SV" loading="lazy"
+                                             src="<?= $helper->getSource('DSC_1427.jpg', 'backgrounds') ?>"
+                                             style="width: 650px !important; object-fit: cover; aspect-ratio: 1/1 !important;"
+                                             class="attachment-qi_addons_for_elementor_image_size_square size-qi_addons_for_elementor_image_size_square"/>
                                     </div>
                                 </div>
                                 <div class="qodef-m-card">
                                     <div class="qodef-m-bundle-item">
-                                        <img width="650" height="650"
-                                             src="assets/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy-650x650.jpg"
-                                             class="attachment-qi_addons_for_elementor_image_size_square size-qi_addons_for_elementor_image_size_square" alt="" decoding="async"
-                                             srcset="https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy-650x650.jpg 650w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy-300x300.jpg 300w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy-1024x1024.jpg 1024w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy-150x150.jpg 150w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy-768x768.jpg 768w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy-550x550.jpg 550w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy-1060x1060.jpg 1060w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy-1536x1536.jpg 1536w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy-500x500.jpg 500w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy-1080x1080.jpg 1080w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy-1300x1300.jpg 1300w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transport-logistic-manager-engineer-checking-generative-ai-illustration-copy.jpg 1920w"
-                                             sizes="(max-width: 650px) 100vw, 650px"/
-                                        >
+                                        <img fetchpriority="high" width="650" height="650" alt="SV" loading="lazy"
+                                             src="<?= $helper->getSource('DSC_1296.jpg', 'backgrounds') ?>"
+                                             style="width: 650px !important; object-fit: cover; aspect-ratio: 1/1 !important;"
+                                             class="attachment-qi_addons_for_elementor_image_size_square size-qi_addons_for_elementor_image_size_square"/>
                                     </div>
                                 </div>
                                 <div class="qodef-m-card">
                                     <div class="qodef-m-bundle-item">
-                                        <img width="650" height="650" src="assets/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-650x650.jpg"
-                                             class="attachment-qi_addons_for_elementor_image_size_square size-qi_addons_for_elementor_image_size_square" alt="" decoding="async"
-                                             srcset="https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-650x650.jpg 650w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-150x150.jpg 150w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-550x550.jpg 550w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-300x300.jpg 300w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-1300x1300.jpg 1300w"
-                                             sizes="(max-width: 650px) 100vw, 650px"/>
+                                        <img fetchpriority="high" width="650" height="650" alt="SV" loading="lazy"
+                                             src="<?= $helper->getSource('DSC_1351.jpg', 'backgrounds') ?>"
+                                             style="width: 650px !important; object-fit: cover; aspect-ratio: 1/1 !important;"
+                                             class="attachment-qi_addons_for_elementor_image_size_square size-qi_addons_for_elementor_image_size_square"/>
                                     </div>
                                 </div>
                             </div>
                             <div class="qodef-m-fake-card">
-                                <img width="650" height="650" src="assets/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-650x650.jpg"
-                                     class="attachment-qi_addons_for_elementor_image_size_square size-qi_addons_for_elementor_image_size_square" alt="" decoding="async"
-                                     srcset="https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-650x650.jpg 650w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-150x150.jpg 150w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-550x550.jpg 550w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-300x300.jpg 300w, https://themes.pixelwars.org/logistica/demo-01/wp-content/uploads/sites/2/2023/08/transportation-logistics-container-cargo-ship-cargo-plane-1300x1300.jpg 1300w"
-                                     sizes="(max-width: 650px) 100vw, 650px"/></div>
+                                <img width="650" height="650" alt="" decoding="async" loading="lazy"
+                                     src="<?= $helper->getSource('DSC_1351.jpg', 'backgrounds') ?>"
+                                     style="width: 650px !important; object-fit: cover; aspect-ratio: 1/1 !important;"
+                                     class="attachment-qi_addons_for_elementor_image_size_square size-qi_addons_for_elementor_image_size_square"/>
+                            </div>
                             <div class="qodef-m-navigation">
                                 <div class="qodef-nav qodef--prev">
                                     <svg class="qodef-swiper-arrow-left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34.2 32.3"
