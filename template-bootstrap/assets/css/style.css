@@ -1,0 +1,11 @@
+:root {
+    --color-background: #222831;
+    --color-button: #393E46;
+    --color-border: #00ADB5;
+    --color-font: #EEEEEE;
+}
+
+
+* {
+    background-color: var(--color-background);
+}
